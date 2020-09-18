@@ -1,0 +1,979 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <title>Hello, world!</title>
+</head>
+<body>
+
+    <div class="site-head">
+        <div class="top-logo">
+            <div class="header-logo">
+                <div class="brand  ">
+                    <div class="time ">
+                        <span id="time" class="current-time"></span>
+                    </div>
+                    <img src="images/Logo_light.png" alt="" align="center" class="logo-top">
+                </div>
+            </div>
+        </div>
+
+        <div class="header">
+
+            <div class="col-xl-12 top-bar">
+                <div class="row">
+                    <div class="em col-xl-2">
+
+                    </div>
+                    <div class="em col-xl-8" align=>
+                        <div class="row just-arrived-content">
+                            <div class="just-arrived-title col-xl-2">
+                                <span>Just Arrived</span>
+                                <i class="fas fa-grip-lines-vertical control "></i>
+
+
+                            </div>
+                            <div class="just-arrived-news col-xl-8">
+                                <marquee behavior="" direction=""><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, provident...</p></marquee>
+                            </div>
+                            <div class="just-arrived-controls col-xl-2" align="left">
+
+                                <i class="fas fa fa-chevron-circle-left control"></i>
+                                <i class="fas fa-pause-circle control"></i>
+                                <i class="fas fa-chevron-circle-right control"></i>
+                                <i class="fas fa-grip-lines-vertical control "></i>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="em col-xl-2 social-top-bar">
+                        <div class="row">
+                            <div class="col-xl-8">
+                                <i class="fab fa-facebook-square social-top"></i>
+                                <i class="fab fa-youtube social-top"></i>
+                                <i class="fas fa-user social-top"></i>
+
+                            </div>
+                            <div class="col-xl-4"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="Menu">
+
+
+                <nav class="navbar navbar-expand-lg navbar-light bg-light navigation">
+                    <a class="navbar-brand" href="#"><img src="images/Logo_dark.png" alt="" height="100%" width="100%" class="brand-image"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto menues" >
+                            <li class="nav-item  form-inline menues">
+                                <a class="nav-link nav-item nav-itemx" href="index.html">Bangladesh<span class="sr-only">(current)</span></a>
+                                <a class="nav-link nav-item nav-itemx" href="#">World<span class="sr-only">(current)</span></a>
+                                <a class="nav-link nav-item nav-itemx" href="#">Politics     <span class="sr-only">(current)</span></a>
+                                <a class="nav-link nav-item nav-itemx" href="#">Business     <span class="sr-only">(current)</span></a>
+                                <a class="nav-link nav-item nav-itemx" href="#">Sports     <span class="sr-only">(current)</span></a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle nav-itemx" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    All
+                                </a>
+                                <div class="dropdown-menu menues" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Entertainment</a>
+                                    <a class="dropdown-item" href="#">Lifestyle</a>
+                                    <a class="dropdown-item" href="#">Opinion</a>
+                                </div>
+                            </li>
+
+                        </ul>
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-dark my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+                    </div>
+                </nav>
+
+            </div>
+
+        </div>
+    </div>
+
+<div class="body" >
+
+    <div class="col-xl-12 em content1">
+        <div class="row">
+
+            <div class="col-xl-3 video-bulletin-block em">
+
+                <div class="video-bulletin-content">
+                    <div class="video-player">
+                        <div class="play-pause" id="play-pause">
+                            <i class="far fa-3x fa-play-circle" onclick="playPause()" id="pauser"></i>
+
+                        </div>
+                        <div class="video-all">
+
+
+
+                        <div class="video-bg-title" id="vid_info">
+
+                            <div class="video-info">
+                                <div class="row">
+
+                                    <div class="col-xl-1">
+                                            <div class="video-bar ">
+
+                                            </div>
+                                    </div>
+
+                                    <div class="video-title col-xl-8">
+                                        <p>News Bulletin <br>Sunday | 14 Oct 2019
+                                        </p>
+                                    </div>
+                                    <div class=" col-xl-3">
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="video-background-image">
+                            <video width="283" height="153" class="video-top" id="video1" poster="images/video_thumbnail.png">
+                                <source src="images/news_bulletin.mp4" type="video/mp4">
+                                <source src="https://youtu.be/T9aLs3YyUbc" type="video/ogg">
+                                Your browser does not support the video tag.
+
+
+
+                                <script>
+                                    var pauser=document.getElementById('pauser')
+                                    var vidinfo=document.getElementById('vid_info')
+                                    var myVideo = document.getElementById("video1");
+                                    function hideinfo() {
+
+
+
+
+
+                                    }
+                                    function playPause() {
+                                        if (myVideo.paused){
+
+
+                                            myVideo.play();
+                                            vidinfo.style="display:none;"
+                                            pauser.style="opacity:0;"
+
+                                        }
+                                        else{
+
+
+                                            myVideo.pause();
+                                            vidinfo.style=" "
+                                            pauser.style="opacity:1;"
+                                        }
+                                    }
+
+                                    function makeBig() {
+                                        myVideo.width = 560;
+                                    }
+
+                                    function makeSmall() {
+                                        myVideo.width = 320;
+                                    }
+
+                                    function makeNormal() {
+                                        myVideo.width = 420;
+                                    }
+                                </script>
+                            </video>
+
+
+
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="On-now">
+                        <div class="row tv-info-title">
+                            
+                            <div class="col-xl-4 logo-tv">
+                                <img src="images/logo_video_div.png" alt="">
+                            </div>
+                            <div class="col-xl-8 on-now-content">
+                                <div class="on-now-bar">
+                                    <span class="on-now-write">ON NOW</span>
+
+                                </div>
+                                <div class="tv-info">
+                                    <span class="tv-info-write">The Daily News Brief</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="video-1-block vid-1">
+
+
+
+                            <div class="video-content">
+
+                                <div class="row">
+                                <div class="col-xl-4 vid-thumbnail">
+                                    <img src="images/vid-thum-1.png" alt="">
+                                </div>
+
+                                <div class="col-xl-8 vid-text">
+
+                                    <span>Pentagon to deploy  more troops to Saudi  Arabia</span>
+
+                                </div>
+                                </div>
+
+
+                        </div>
+                    </div>
+
+                    <div class="video-1-block vid-2">
+
+
+
+                        <div class="video-content">
+
+                            <div class="row">
+                                <div class="col-xl-4 vid-thumbnail">
+                                    <img src="images/vid-thum-2.png" alt="">
+                                </div>
+
+                                <div class="col-xl-8 vid-text">
+
+                                    <span>Hic incidunt laborum non quasi veniam voluptas.</span>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                    <div class="video-1-block vid-3">
+
+
+
+                        <div class="video-content">
+
+                            <div class="row">
+                                <div class="col-xl-4 vid-thumbnail">
+                                    <img src="images/vid-thum-3.png" alt="">
+                                </div>
+
+                                <div class="col-xl-8 vid-text">
+
+                                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing.</span>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <div class="col-xl-6 current-big-news em">
+              <div class="current-big-news-content">
+
+                  <div class="current-big-news-title">
+                      <div class="bignews-info">
+                          <span class="bignews-title">Eiusmod tempor incididunt ut labore</span>
+                          <div class="bignews-title-bar">
+
+                          </div>
+
+                          <div class="bignews-snippet">
+                              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias eum magni nostrum numquam tempora? Ad aliquid impedit incidunt labore maiores.</span>
+                          </div>
+                      </div>
+
+                  </div>
+
+                    <div class="current-big-news-background-image">
+                        <img src="images/current-big-news.png" alt="">
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-xl-3 top-news em">
+                <div class="top-news-content">
+                    <div class="top-news-bg">
+                        <span class="too-news-title">TOP NEWS</span>
+                    </div>
+
+                    <div>
+                        <div class="video-1-block vid-1 top-1">
+
+
+
+                            <div class="video-content">
+
+                                <div class="row">
+                                    <div class="col-xl-4 vid-thumbnail">
+                                        <img src="images/vid-thum-1.png" alt="">
+                                    </div>
+
+                                    <div class="col-xl-8 vid-text">
+
+                                        <span>Pentagon to deploy  more troops to Saudi  Arabia</span>
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                        <div class="video-1-block vid-2 top-2">
+
+
+
+                            <div class="video-content">
+
+                                <div class="row">
+                                    <div class="col-xl-4 vid-thumbnail">
+                                        <img src="images/vid-thum-2.png" alt="">
+                                    </div>
+
+                                    <div class="col-xl-8 vid-text">
+
+                                        <span>Hic incidunt laborum non quasi veniam voluptas.</span>
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                        <div class="video-1-block vid-3 top-3">
+
+
+
+                            <div class="video-content">
+
+                                <div class="row">
+                                    <div class="col-xl-4 vid-thumbnail">
+                                        <img src="images/vid-thum-3.png" alt="">
+                                    </div>
+
+                                    <div class="col-xl-8 vid-text">
+
+                                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing.</span>
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="video-1-block vid-3 top-4">
+
+
+
+                            <div class="video-content">
+
+                                <div class="row">
+                                    <div class="col-xl-4 vid-thumbnail">
+                                        <img src="images/vid-thum-3.png" alt="">
+                                    </div>
+
+                                    <div class="col-xl-8 vid-text">
+
+                                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing.</span>
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="video-1-block vid-3 top-5">
+
+
+
+                            <div class="video-content">
+
+                                <div class="row">
+                                    <div class="col-xl-4 vid-thumbnail">
+                                        <img src="images/vid-thum-3.png" alt="">
+                                    </div>
+
+                                    <div class="col-xl-8 vid-text">
+
+                                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing.</span>
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="col-xl-12 em content2">
+       <div class="col-xl-12 em content2-background">
+            <div class="row">
+                <div class="col-xl-6 weather-block em">
+                        <div class="weather-content">
+                            <img src="images/weather.png" alt="" class="c2image" height="100%" width="100%">
+                        </div>
+                </div>
+
+                <div class="col-xl-6 stock-block em">
+                    <div class="stock-content">
+                        <img src="images/stock.png" alt="" height="100%" width="100%" class="c2image">
+                    </div>
+                </div>
+
+            </div>
+       </div>
+    </div>
+
+    <div class="col-xl-12 em content3">
+        <div class="row">
+
+            <div class="col-xl-6 em content3-bignews-block">
+                <div class="content3-bignews-content">
+                    <div class="content3-big-image">
+                        <img src="images/content3-big-image.png" alt="" width="100%" height="100%" class="c3image">
+                    </div>
+                    <div class="c3bigTitle">
+                        <span class="c3bigTitle_news">Stop Torture in the name of ragging.</span>
+                    </div>
+
+                    <div>
+                        <div class="row author_c3_div">
+                            <div class="col-xl-8">
+
+                                <span class="author_c3">By Sheikh Salman Oct 14, 2019</span>
+                            </div>
+
+                            <div class="col-xl-4 tag_opinion" align="center">
+                                <a href="#"><img src="images/tag_opinion.png" alt=""></a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-6 em content3-smallnews">
+
+                <div class="col-xl-12 em content3-smallNews-block">
+
+                    <div class="content3-smallNews-content">
+                        <div class="row">
+                            <div class="col-xl-5 smallnews-photo">
+                                <img src="images/small-news-1.png" alt="">
+                            </div>
+                            <div class="col-xl-7 titleSmallnews">
+                                <div class="smallNewsTitle">
+                                    <span>Man City's title defence rocked by Wolves</span>
+                                </div>
+                                <div align="left" >
+                                    <a href=""><img src="images/Tag_sports.png" alt="" align="bottom" class="smallNewsTag"></a>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+                <div class="col-xl-12 em content3-smallNews-block">
+
+                    <div class="content3-smallNews-content">
+                        <div class="row">
+                            <div class="col-xl-5 smallnews-photo">
+                                <img src="images/entertainment_1.png" alt="">
+                            </div>
+                            <div class="col-xl-7 titleSmallnews">
+                                <div class="smallNewsTitle">
+                                    <span>Breaking Bad Movie: El CaminoConfirms Whether WalterWhite Is Alive Or Dead?</span>
+                                </div>
+                                <div align="left" >
+                                    <a href=""><img src="images/Tag_enter.png" alt="" align="bottom" class="smallNewsTag"></a>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+                <div class="col-xl-12 em content3-smallNews-block">
+
+                    <div class="content3-smallNews-content">
+                        <div class="row">
+                            <div class="col-xl-5 smallnews-photo">
+                                <img src="images/pilitcs-1.png" alt="">
+                            </div>
+                            <div class="col-xl-7 titleSmallnews">
+                                <div class="smallNewsTitle">
+                                    <span>‘BNP involved in dirty politics over Abrar murder’ says information minister </span>
+                                </div>
+                                <div align="left" >
+                                    <a href=""><img src="images/Tag_politics.png" alt="" align="bottom" class="smallNewsTag"></a>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="col-xl-12 em content4">
+        <div class="col-xl-12 em content4-gallery-block">
+            <div class="col-xl-12 em content4-gallery-content">
+                <div class="row content4-actual-content">
+                        <div class="col-xl-3 em content4-photo-description">
+
+                        </div>
+                    <div class="col-xl-5 em content4-photo-slider">
+
+                    </div>
+
+                    <div class="col-xl-4 em content4-video-block">
+                            <div class="content4-video-content">
+
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-xl-12 em content5">
+        <div class="row">
+            <div class="col-xl-8 em content5-latestNews-block em">
+                <div class="content5-latestNews-head-block em">
+                    <div class="content5-latestNews-head-content em">
+                        <div class="row">
+                            <div class="col-xl-4 latestNewsTitle">
+                                <span class="latestTitle">LATEST NEWS</span>
+                            </div>
+                            <div class="col-xl-8 ">
+                                <ul class="navbar-nav mr-auto menues latestnewsitems ">
+                                    <li class="nav-item  form-inline menues n">
+                                        <a class="nav-link nav-item nav-itemx2" href="index.html">ALL<span class="sr-only">(current)</span></a>
+                                        <a class="nav-link nav-item nav-itemx2" href="#">World<span class="sr-only">(current)</span></a>
+                                        <a class="nav-link nav-item nav-itemx2" href="#">Politics     <span class="sr-only">(current)</span></a>
+                                        <a class="nav-link nav-item nav-itemx2" href="#">Business     <span class="sr-only">(current)</span></a>
+                                        <a class="nav-link nav-item nav-itemx2" href="#">Sports     <span class="sr-only">(current)</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content5-latestNews-newses em">
+
+                    <div class="row em latestNewsRow">
+                        <div class="col-xl-6 em content5-latestNews-newses-block">
+                            <div class="em content5-latestNews-newses-content">
+                                <div class="latest-photo">
+                                    <img src="images/latest-photo-sport.png" alt="">
+                                </div>
+
+                              <div class="latest-text-content">
+                                  <div class="latest-title">
+                                      <span>Duis at consectetur lorem donec massa sapien faucibus et. </span>
+                                  </div>
+
+                                  <div class="row authortlatest">
+                                      <div class="col-xl-8 latest-author">
+                                          <span class="latest-author">By Sheikh Salman Oct 14, 2019</span>
+                                      </div>
+
+                                      <div class="col-xl-4 latest-tag">
+                                          <img src="images/Tag_sports.png" alt="" align="left" class="tag_sport">
+                                      </div>
+                                  </div>
+
+                                  <div class="latest-content-short">
+                                    <span>In hac habitasse platea dictumst vestibulum rhoncus est.
+                                    Ornare massa eget egestas purus viverra accumsan in.
+                                        Facilisie art pellentesq.......</span>
+                                  </div>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 em content5-latestNews-newses-block">
+                            <div class="em content5-latestNews-newses-content">
+                                <div class="latest-photo">
+                                    <img src="images/latest-2-img.png" alt="">
+                                </div>
+
+                                <div class="latest-text-content">
+                                    <div class="latest-title">
+                                        <span>Duis at consectetur lorem donec massa sapien faucibus et. </span>
+                                    </div>
+
+                                    <div class="row authortlatest">
+                                        <div class="col-xl-8 latest-author">
+                                            <span class="latest-author">By Sheikh Salman Oct 14, 2019</span>
+                                        </div>
+
+                                        <div class="col-xl-4 latest-tag">
+                                            <img src="images/tag_opinion_small.png" alt="" align="left">
+                                        </div>
+                                    </div>
+
+                                    <div class="latest-content-short">
+                                    <span>In hac habitasse platea dictumst vestibulum rhoncus est.
+                                    Ornare massa eget egestas purus viverra accumsan in.
+                                        Facilisie art pellentesq.......</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row latestNewsRow">
+                        <div class="col-xl-6 em content5-latestNews-newses-block">
+                            <div class="em content5-latestNews-newses-content">
+                                <div class="latest-photo">
+                                    <img src="images/latest-3-img.png" alt="">
+                                </div>
+
+                                <div class="latest-text-content">
+                                    <div class="latest-title">
+                                        <span>Duis at consectetur lorem donec massa sapien faucibus et. </span>
+                                    </div>
+
+                                    <div class="row authortlatest">
+                                        <div class="col-xl-8 latest-author">
+                                            <span class="latest-author">By Sheikh Salman Oct 14, 2019</span>
+                                        </div>
+
+                                        <div class="col-xl-4 latest-tag">
+                                            <img src="images/tag_opinion_small.png" alt="" align="left">
+                                        </div>
+                                    </div>
+
+                                    <div class="latest-content-short">
+                                    <span>In hac habitasse platea dictumst vestibulum rhoncus est.
+                                    Ornare massa eget egestas purus viverra accumsan in.
+                                        Facilisie art pellentesq.......</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 em content5-latestNews-newses-block">
+                            <div class="em content5-latestNews-newses-content">
+                                <div class="latest-photo">
+                                    <img src="images/latest-4-img.png" alt="">
+                                </div>
+
+                                <div class="latest-text-content">
+                                    <div class="latest-title">
+                                        <span>Duis at consectetur lorem donec massa sapien faucibus et. </span>
+                                    </div>
+
+                                    <div class="row authortlatest">
+                                        <div class="col-xl-8 latest-author">
+                                            <span class="latest-author">By Sheikh Salman Oct 14, 2019</span>
+                                        </div>
+
+                                        <div class="col-xl-4 latest-tag">
+                                            <img src="images/Tag_sports.png" alt="" align="left" class="tag_sport">
+                                        </div>
+                                    </div>
+
+                                    <div class="latest-content-short">
+                                    <span>In hac habitasse platea dictumst vestibulum rhoncus est.
+                                    Ornare massa eget egestas purus viverra accumsan in.
+                                        Facilisie art pellentesq.......</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-xl-4 em">
+                <div class=" content5-topDiscussed-block em">
+                    <div class="content5-topDiscussed-content em">
+                        <div class="top-news-content">
+                            <div class="mostDis-news-bg">
+                                <span class="too-news-title">Today's<br>MOST DISCUSSED</span>
+                            </div>
+
+                            <div>
+                                <div class="video-1-block vid-1 top-1 dis-1">
+
+
+
+                                    <div class="video-content">
+
+                                        <div class="row">
+                                            <div class="col-xl-4 vid-thumbnail rounded">
+                                                <img src="images/vid-thum-1.png" alt="" >
+                                            </div>
+
+                                            <div class="col-xl-8 vid-text">
+
+                                                <span>Pentagon to deploy  more troops to Saudi  Arabia</span>
+
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+
+                                <div class="video-1-block vid-2 top-2">
+
+
+
+                                    <div class="video-content">
+
+                                        <div class="row">
+                                            <div class="col-xl-4 vid-thumbnail">
+                                                <img src="images/vid-thum-2.png" alt="">
+                                            </div>
+
+                                            <div class="col-xl-8 vid-text">
+
+                                                <span>Hic incidunt laborum non quasi veniam voluptas.</span>
+
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+
+                                <div class="video-1-block vid-3 top-3">
+
+
+
+                                    <div class="video-content">
+
+                                        <div class="row">
+                                            <div class="col-xl-4 vid-thumbnail">
+                                                <img src="images/vid-thum-3.png" alt="">
+                                            </div>
+
+                                            <div class="col-xl-8 vid-text">
+
+                                                <span>Lorem ipsum dolor sit amet, consectetur adipisicing.</span>
+
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                                <div class="video-1-block vid-3 top-4">
+
+
+
+                                    <div class="video-content">
+
+                                        <div class="row">
+                                            <div class="col-xl-4 vid-thumbnail">
+                                                <img src="images/vid-thum-3.png" alt="">
+                                            </div>
+
+                                            <div class="col-xl-8 vid-text">
+
+                                                <span>Lorem ipsum dolor sit amet, consectetur adipisicing.</span>
+
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+
+                            </div>
+                    </div>
+                </div>
+
+                <div class="content5-newsletter-block em">
+                    <div class="content5-newsletter-content em">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="col-xl-12 em footer">
+        <div class=" em footer-block">
+            <div class=" em footer-content">
+                <div class="em footer-top">
+                    <div class="row footer-top-content">
+                        <div class="col-xl-3">
+                            <img src="images/Logo_dark.png" alt="">
+                        </div>
+                        <div class="col-xl-2">
+
+                        </div>
+                        <div class="col-xl-3 footer-app-text">
+                            <span>Get our mobile app |</span>
+                        </div>
+
+                        <div class="col-xl-4">
+                            <div class="row">
+                                <div class="col-xl-6">
+                                    <a href="">
+                                        <img src="images/appstore.png" alt="">
+                                    </a>
+
+                                </div>
+                                <div class="col-xl-6">
+                                    <a href="">
+                                        <img src="images/play.png" alt="" align="left">
+                                    </a>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                    <div class="footer-bottom-content">
+                        <div class="row">
+                            <div class="col-xl-3">
+                                <span class="footer-about">
+                                    Est ante in nibh mauris cursus.
+Placerat in egestas erat imperdiet
+sed euismod nisi porta lorem
+Arcu non sodales neque.
+                                </span>
+                            </div>
+                            <div class="col-xl-2">
+                                <span class="list_label">About</span>
+                                <ul class="about-list">
+                                    <li>Contact us</li>
+                                    <li>Career</li>
+                                    <li>Advertisze</li>
+                                    <li>Ad Choices</li>
+
+                                </ul>
+                            </div>
+                            <div class="col-xl-2">
+                                <span class="list_label">Legal</span>
+                                <ul class="about-list">
+                                    <li>Usage Rights</li>
+                                    <li>Terms of service</li>
+                                    <li>Data removal</li>
+
+                                </ul>
+                            </div>
+                            <div class="col-xl-2">
+                                <span class="list_label">Others</span>
+                                <ul class="about-list">
+                                    <li>lorem</li>
+                                    <li>veil lea</li>
+                                    <li>Lorem ipsum.</li>
+                                    <li>Sit amet.</li>
+
+                                </ul>
+                            </div>
+                            <div class="col-xl-3">
+                                <span class="list_label">Get to touch</span>
+                                <ul class="about-list">
+                                    <li><span class="fa-loc"><i class="fas fa-map-marker-alt"></i></span> DT-5, Dhanmondi,Dhaka</li>
+                                    <li><span class="fa-loc"><i class="fas fa-envelope"></i></span> Sheikhsalman2013@gmail.com</li>
+                                    <li><i class="fas fa-phone-volume"></i> +88 013XXXXXXX</li>
+
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- Optional JavaScript -->
+    <script>
+        var timer=document.getElementById('time');
+        function time() {
+            var today = new Date();
+            var time=formatAMPM(today)
+            return time;
+        }
+
+
+
+        window.setInterval(function(){
+            timer.innerText=time();
+        }, 1000);
+
+
+
+
+
+        function formatAMPM(date) {
+            var hours = date.getHours();
+            var minutes = date.getMinutes();
+            var seconds = date.getSeconds();
+            var ampm = hours >= 12 ? 'PM' : 'AM';
+            hours = hours % 12;
+            hours = hours ? hours : 12; // the hour '0' should be '12'
+            minutes = minutes < 10 ? '0'+minutes : minutes;
+            var strTime = hours + ':' + minutes + ':' +seconds+' '+ ampm;
+            return strTime;
+        }
+
+    </script>
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

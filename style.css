@@ -1,0 +1,966 @@
+
+
+.hr{
+    height: 10px;
+    color: #fff600;
+
+}
+
+.em{
+  /*border: 1px solid #ff442a;*/
+}
+
+.site-head{
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+
+}
+
+.navbar{
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+}
+
+.Menu{
+
+}
+.header{
+
+    position: absolute;
+    z-index: 1;
+
+}
+.top-logo{
+    position: absolute;
+    z-index: 2;
+    margin-left: 20px;
+    top: 4px;
+}
+
+.header-logo{
+    /* Style for "logo-squar" */
+    width: 170px;
+    height: 100px;
+    box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.16);
+    border-radius: 10px;
+    border: 3px solid #f7f7f7;
+    background-color: #415362;
+
+}
+.brand{
+position: relative;
+}
+
+.logo-top{
+    position: absolute;
+    top: 41px;
+    bottom: 20px;
+    left: 13px;
+    right: 13px;
+}
+.time{
+    width: 100%;
+    height: 34px;
+    border-radius: 10px 10px 0px 0px;
+    color: #fff600;
+    font-family: "Digital-7 Mono";
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: center;
+    text-transform: uppercase;
+    /* Text style for "09:50 PM" */
+    letter-spacing: 0.15px;
+    background-color: #2169a7;
+}
+
+
+
+.just-arrived-title{
+    /* Style for "Just arriv" */
+    color: #fff600;
+    font-family: "Proxima Nova";
+    font-size: 17px;
+    font-weight: 700;
+    /* Text style for "Just arriv" */
+    letter-spacing: 0.1px;
+
+
+}
+.just-arrived-content{
+    padding-top: 4px;
+}
+
+.just-arrived-news{
+    /* Style for "Modi and X" */
+    width: 449px;
+    height: 15px;
+    color: #ffffff;
+    font-family: "Proxima Nova";
+    font-size: 17px;
+    font-weight: 400;
+    /* Text style for "Modi and X" */
+    letter-spacing: 0.1px;
+}
+.social-top{
+    text-align: center;
+    color: #ffffff;
+    margin-left: 12px;
+}
+.social-top-bar{
+    padding-top: 4px;
+}
+
+.control{
+    color: #fff600;
+    margin-left: 8px;
+}
+
+
+.header{
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.22);
+
+}
+.nav-item{
+    /* Style for "Bangladesh" */
+
+    color: #413f3f !important;
+    font-family: "Proxima Nova" !important;
+    font-size: 19px !important;
+    font-weight: 400 !important;
+}
+
+.nav-itemx:hover{
+    background-color: #e6e6e6 !important;
+
+}
+
+.nav-itemx:active{
+    color: #2169a7 !important;
+}
+.top-bar{
+    /* Style for "top-bar" */
+    width: 100%;
+    height: 39px;
+    background-color: #415362;
+}
+
+
+@media screen and (min-width:960px){
+    .menues{
+        text-color: #413f3f !important;
+        font-family: "Proxima Nova";
+        font-size: 19px;
+        font-weight: 400;
+    }
+
+    .brand-image{
+        width: 75%;
+        margin-left: 20px;
+    }
+
+    #navbarSupportedContent{
+        margin-left: 190px;
+
+    }
+}
+
+
+.body{
+    scroll-behavior: smooth;
+    position: relative;
+    top: 110px;
+
+    z-index: 1;
+    /*margin-left: 20px;*/
+    /*margin-right: 20px;*/
+}
+.video-bulletin-block{
+    /* Style for "Video-bull" */
+    width: 329px;
+    height: 516px;
+
+}
+.video-bulletin-content{
+    /* Style for "Rounded Re" */
+    width: 296px;
+    height: 505px;
+    box-shadow: 0 2px 10px 1px rgba(0, 0, 0, 0.16);
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.video-player{
+    /* Style for "Rounded Re" */
+    position: absolute;
+    bottom: 346px;
+    top: 8px;
+    right: 34px;
+    width: 280px;
+    height: 151px;
+
+    box-shadow: 0 2px 10px 1px rgba(0, 0, 0, 0.16);
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+.video-background-image{
+    position: absolute;
+    z-index: 1;
+}
+.video-all{
+    position: absolute;
+    z-index: 1;
+}
+.play-pause{
+    color: #ffff00;
+    opacity: 0.75;
+    position: absolute;
+    z-index: 2;
+    margin-left: 111px;
+    margin-top: 39px;
+}
+.video-top{
+
+
+    border-radius: 10px;
+}
+.video-bg-title{
+    border-radius: 10px;
+    width: 280px;
+    height: 153px;
+    position: absolute;
+    z-index: 2;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.95+100 */
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.95) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.95) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.95) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#f2000000',GradientType=0 ); /* IE6-9 */
+
+
+
+
+}
+
+.video-info{
+    position: relative;
+    top: 100px;
+
+    bottom: 10px;
+}
+.video-bar{
+    /* Style for "Rectangle" */
+    position: relative;
+    left: 15px;
+    width: 3px;
+    height: 43px;
+    background-color: #ffff00;
+}
+
+.video-title{
+    /* Style for "News Bulle" */
+    width: 140px;
+    height: 31px;
+    color: #ffffff;
+    font-family: "Proxima Nova";
+    font-size: 15px;
+    font-weight: 400;
+    /* Text style for "N, ews Bul" */
+    letter-spacing: 0.1px;
+}
+
+.logo-tv{
+   top: 168px;
+}
+.on-now-content{
+    top: 180px;
+}
+
+.on-now-write{
+    /* Style for "ON NOW" */
+    text-align: center;
+    color: #fff600;
+    font-family: "Proxima Nova";
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* Text style for "O, N NOW" */
+    letter-spacing: 0.1px;
+}
+.tv-info-write{
+    /* Style for "The Daily" */
+
+    color: #413f3f;
+    font-family: "Proxima Nova";
+    font-size: 17px;
+    font-weight: 400;
+    /* Text style for "T, he Dail" */
+    letter-spacing: 0.1px;
+}
+
+.on-now-bar{
+    text-align: center;
+    /* Style for "Rectangle" */
+    width: 83px;
+    height: 23px;
+    background-color: #2169a7;
+}
+
+.video-1-block{
+    /* Style for "1" */
+    width: 100%;
+    height: 85px;
+    top: 170px;
+    position: relative;
+
+}
+
+.vid-1{
+    background-color: #e6e6e6;
+}
+.video-content{
+    /* Style for "Rounded Re" */
+    width: 100%;
+    height: 85px;
+    border-radius: 10px;
+
+
+}
+.vid-2{
+    margin-top: 5px;
+}
+
+.vid-3{
+    margin-top: 5px;
+
+    background-color: #e6e6e6;
+}
+
+.vid-thumbnail{
+    /* Style for "4863853998" */
+    width: 97px;
+    height: 61px;
+    position: relative;
+    top: 7px;
+    left: 5px;
+
+
+}
+
+.vid-text{
+    /* Style for "Pentagon t" */
+    top: 5px;
+    width: 100%;
+    color: #413f3f;
+    font-family: "Proxima Nova";
+    font-size: 17px;
+    font-weight: 400;
+    /* Text style for "P, entagon" */
+    letter-spacing: 0.1px;
+}
+
+.too-news-title{
+    position: relative;
+    top: 5px;
+}
+.top-news-bg{
+    /* Style for "Rectangle" */
+    width: 100%px;
+    height: 36px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #415362;
+
+    /* Style for "TOP NEWS" */
+    text-align: center;
+
+    color: #fff600;
+    font-family: "Proxima Nova";
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* Text style for "T, OP NEWS" */
+    letter-spacing: 0.1px;
+}
+
+/*------------------------------------*/
+.current-big-news{
+    /* Style for "Current Bi" */
+    width: 661px;
+    height: 516px;
+}
+.current-big-news-content{
+    /* Style for "Rounded Re" */
+    position:relative;
+    left: -10px;
+    width: 661px;
+    height: 505px;
+    box-shadow: 0 5px 10px 1px rgba(0, 0, 0, 0.16);
+    border-radius: 10px;
+    background-color: #f1f1f1;
+}
+.current-big-news-background-image{
+position: absolute;
+    z-index: 1;
+}
+.current-big-news-title{
+    border-radius: 10px;
+    width: 661px;
+    height: 505px;
+    position: absolute;
+    z-index: 2;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.95+100 */
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.95) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.95) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.95) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#f2000000',GradientType=0 ); /* IE6-9 */
+
+
+
+
+}
+.bignews-info{
+    position: absolute;
+    top: 386px;
+    left: 13px;
+}
+.bignews-title{
+    /* Style for "Eiusmod te" */
+
+    color: #ede612;
+    font-family: "Proxima Nova";
+    font-size: 28px;
+    font-weight: 700;
+}
+.bignews-title-bar{
+    /* Style for "Rectangle" */
+    width: 124px;
+    height: 3px;
+    background-color: #ede612;
+}
+.bignews-snippet{
+    /* Style for "Lorem ipsu" */
+    width: 90%;
+    color: #ffffff;
+    font-family: "Proxima Nova";
+    font-size: 18px;
+    font-weight: 400;
+}
+.top-news{
+    /* Style for "Top News" */
+    width: 329px;
+    height: 516px;
+}
+.top-news-content{
+    /* Style for "Rounded Re" */
+    width: 296px;
+    height: 505px;
+    box-shadow: 0 2px 10px 1px rgba(0, 0, 0, 0.16);
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.content2-background{
+    /* Style for "background" */
+    width: 1293px;
+    height: 89px;
+    border-radius: 10px;
+    background-color: #e6e6e6;
+}
+
+.weather-block{
+    position: relative;
+    top: 5px;
+    bottom: 6px;
+    /* Style for "weather" */
+    width: 640px;
+    height: 78px;
+}
+.weather-content{
+    /* Style for "weather ba" */
+
+    width: 636px;
+    height: 78px;
+    box-shadow: 0 2px 10px 1px rgba(0, 0, 0, 0.16);
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.stock-block{
+    position: relative;
+    top: 5px;
+    bottom: 6px;
+    /* Style for "Stock" */
+    width: 636px;
+    height: 78px;
+}
+.stock-content{
+    /* Style for "weather ba" */
+    position: absolute;
+    left: 7px;
+    width: 636px;
+    height: 78px;
+    box-shadow: 0 2px 10px 1px rgba(0, 0, 0, 0.16);
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.content3-bignews-block{
+    /* Style for "Opinion" */
+    margin-top: 10px;
+    width: 641px;
+    height: 558px;
+}
+.content3-bignews-content{
+    /* Style for "container" */
+    width: 642px;
+    height: 558px;
+    box-shadow: 0 2px 10px 1px rgba(0, 0, 0, 0.16);
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+
+
+
+.content3-smallnews{
+    height: 558px;
+}
+.content3-smallNews-block{
+    /* Style for "Sports" */
+    margin-top: 10px;
+    width: 641px;
+    height: 177px;
+    left: -23px;
+}
+
+.content3-smallNews-content{
+    /* Style for "container" */
+    width: 641px;
+    height: 177px;
+    box-shadow: 0 2px 10px 1px rgba(0, 0, 0, 0.16);
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.content4-gallery-block{
+
+    /* Style for "content-4" */
+    padding-left: unset !important;
+    padding-right: unset !important;
+    margin-top: 10px;
+    width: 1293px;
+    height: 407px;
+}
+
+.content4-gallery-content{
+
+    /* Style for "photo-gall" */
+
+    width: 1293px;
+    height: 407px;
+    box-shadow: 0 2px 10px 1px rgba(0, 0, 0, 0.16);
+    border-radius: 10px;
+    background-color: #415362;
+}
+.content4-actual-content{
+    position: relative;
+    top: 10px;
+    margin-right: 15px !important;
+    margin-left: 15px !important;
+}
+
+.content4-video-block{
+    /* Style for "videos-gal" */
+    width: 439px;
+    height: 381px;
+}
+
+.content4-video-content{
+    /* Style for "Rounded Re" */
+    width: 409px;
+    height: 381px;
+    border-radius: 10px;
+    background-color: #536a7d;
+}
+.content5{
+    margin-top: 10px;
+}
+
+.content5-topDiscussed-block{
+    /* Style for "Top News c" */
+    width: 374px;
+    height: 657px;
+}
+.content5-topDiscussed-content{
+    /* Style for "Rounded Re" */
+    position: relative;
+
+    left: 38px;
+
+    width: 374px;
+    height: 657px;
+    box-shadow: 0 2px 10px 1px rgba(0, 0, 0, 0.16);
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.content5-newsletter-block{
+    /* Style for "Newsletter" */
+    margin-top:8px;
+    width: 374px;
+    height: 342px;
+}
+
+.content5-newsletter-content{
+    /* Style for "newsletter" */
+    position: relative;
+
+    left: 38px;
+    width: 374px;
+    height: 342px;
+    box-shadow: 0 2px 10px 1px rgba(0, 0, 0, 0.16);
+    border-radius: 10px;
+    background-color: #e6e6e6;
+}
+
+
+.content5-latestNews-block{
+    /* Style for "Latest New" */
+    width: 893px;
+    height: 1014px;
+}
+.content5-latestNews-head-block{
+    /* Style for "latest new" */
+    width: 893px;
+    height: 80px;
+}
+.content5-latestNews-head-content{
+    /* Style for "Rounded Re" */
+    width: 893px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: #415362;
+}
+.c2image{
+    border-radius: 10px;
+}
+.latestTitle{
+    position: relative;
+    top: 20px;
+    /* right: 10px; */
+    left: 15px;
+    /* Style for "LATEST NEW" */
+    text-align: left;
+    width: 171px;
+    height: 17px;
+    color: #ffff00;
+    font-family: "Proxima Nova";
+    font-size: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* Text style for "LATEST NEW" */
+    letter-spacing: 0.13px;
+}
+
+.latestnewsitems{
+    position: relative;
+    top: 17px;
+    left: 200px;
+
+}
+
+.latestNewsTitle{
+
+}
+.nav-itemx2{
+    margin-left:10px;
+    margin-right:10px;
+  color: white !important;
+}
+.nav-itemx2:hover{
+    color: #ffff00 !important;
+}
+
+.content3-big-image{
+    /* Style for "photo-fram" */
+    width: 100%px;
+    height: 370px;
+    border-radius: 10px;
+
+    background-color: #ffffff;
+}
+.c3image{
+
+}
+
+.author_c3_div{
+    position: relative;
+    top: 55px;
+    margin-right: unset !important;
+    margin-left: unset !important;
+}
+.smallnews-photo{
+    /* Style for "photo-fram" */
+    width: 292px;
+    height: 176px;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+.smallNewsTag{
+    top: 81px;
+    position: relative;
+}
+.titleSmallnews{
+    position: relative;
+
+    left: 27px;
+}
+.smallNewsTitle{
+    /* Style for "Man City's" */
+    width: 316px;
+    height: 47px;
+    color: #1e1d1d;
+    font-family: "Proxima Nova";
+    font-size: 22px;
+    font-weight: bold;
+    /* Text style for "Man City's" */
+    letter-spacing: 0.11px;
+}
+.author_c3{
+    padding-left: 10px;
+    /* Style for "By Anisul" */
+    width: 257px;
+    height: 17px;
+    color: #6e6e6e;
+    font-family: "Proxima Nova";
+    font-size: 18px;
+    font-weight: 400;
+    /* Text style for "By Anisul" */
+    letter-spacing: 0.1px;
+}
+
+.c3bigTitle{
+    /* Style for "Stop Tortu" */
+    padding-left: 10px;
+    width: 470px;
+    height: 84px;
+    color: #1e1d1d;
+    font-family: "Proxima Nova";
+    font-size: 41px;
+    font-weight: bold;
+    /* Text style for "Stop Tortu" */
+    letter-spacing: 0.2px;
+}
+
+.latestNewsRow{
+    margin-top:8px;
+}
+
+.latest-photo{
+    /* Style for "183950b928" */
+    width: 440px;
+    height: 243px;
+    margin-bottom: 15px;
+}
+.latest-title{
+    /* Style for "Duis at co" */
+    padding: 10px;
+    width: 100%;
+    height: 44px;
+    color: #1e1d1d;
+    font-family: "Proxima Nova";
+    font-size: 21px;
+    font-weight: bold;
+    /* Text style for "Duis at co" */
+    letter-spacing: 0.16px;
+}
+.latest-author{
+
+    padding: 10px;
+}
+
+.authortlatest{
+    position: relative;
+    top: 26px;
+}
+.latest-tag{
+    padding: 10px;
+
+}
+.list_label{
+    margin-left:30px;
+    font-size: 24px;
+    font-weight: 300px;
+    color: #e6e6e6;
+
+}
+.about-list{
+    list-style-type:none;
+    /* Style for "About Cont" */
+
+    height: 148px;
+    color: #e6e6e6;
+    font-family: "Myriad Pro";
+    font-size: 15px;
+   font-weight: normal;
+    /* Text style for "About" */
+
+    /* Text style for "Contact us" */
+    line-height: 32.35px;
+    /* Text style for "," */
+
+}
+.dis-1{
+    width: 100%;
+}
+
+.footer-bottom-content{
+    padding: 40px;
+    padding-bottom: 0px;
+
+}
+.footer-about{
+    /* Style for "Est ante i" */
+    width: 212px;
+    height: 111px;
+    color: #e6e6e6;
+    font-family: "Myriad Pro";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 32.35px;
+}
+.footer-app-text{
+    /* Style for "Get our mo" */
+    margin-top: 15px;
+text-align: right;
+    width: 210px;
+    height: 22px;
+    color: #75787b;
+    font-family: "Proxima Nova";
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 18px;
+}
+.footer-top-content{
+    padding: 16px;
+}
+
+
+.mostDis-news-bg{
+    /* Style for "Rectangle" */
+    width: 100%px;
+    height: 70px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #415362;
+
+    /* Style for "TOP NEWS" */
+    text-align: center;
+
+    color: #fff600;
+    font-family: "Proxima Nova";
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* Text style for "T, OP NEWS" */
+    letter-spacing: 0.1px;
+}
+.tag_sport{
+    width: 81px;
+    height: 22px;
+}
+.latest-text-content{
+    margin-left: 10px;
+}
+.latest-content-short{
+    margin-top: 10px;
+    padding: 15px;
+    /* Style for "In hac hab" */
+    width: 406px;
+    height: 70px;
+    color: #6e6e6e;
+    font-family: "Proxima Nova";
+    font-size: 16px;
+    font-weight: 400;
+    /* Text style for "In hac hab" */
+    letter-spacing: 0.12px;
+}
+.latest-author{
+    /* Style for "By Anisul" */
+
+    text-align: left;
+    width: 176px;
+    height: 11px;
+    color: #777676;
+    font-family: "Proxima Nova";
+    font-size: 13px;
+    font-weight: 400;
+    /* Text style for "By Anisul" */
+    letter-spacing: 0.1px;
+}
+
+.top-1,.top-2,.top-3,.top-4,.top-5{
+    position: relative;
+    top: 0px;
+    height: 88px;
+}
+.top-4{
+    background-color: white;
+}
+
+.content5-latestNews-newses-block{
+    /* Style for "1" */
+    width: 440px;
+    height: 456px;
+}
+
+.content5-latestNews-newses-content{
+    /* Style for "container" */
+    width: 440px;
+    height: 456px;
+    box-shadow: 0 2px 10px 1px rgba(0, 0, 0, 0.16);
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.footer-block{
+    /* Style for "footer" */
+    margin-top: 15px;
+    width: 100%;
+    height: 313px;
+}
+.footer-top{
+    /* Style for "footer-top" */
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    height: 80px;
+    background-color: #e6e6e6;
+}
+
+.footer-content{
+    /* Style for "footer-bac" */
+    width: 100%;
+    height: 313px;
+    box-shadow: 0 2px 10px 1px rgba(0, 0, 0, 0.16);
+    border-radius: 10px 10px 0px 0px;
+    background-color: #415362;
+}
+
+
+@font-face {
+    font-family: "Digital-7 Mono";
+    src: url("fonts/digital-7 (mono).ttf");
+}
+
+@font-face {
+    font-family: "Digital-7 Mono";
+    src: url("fonts/digital-7 (mono).ttf");
+    font-family: "Digital -7";
+    src: url(fonts/digital-7.ttf) format("truetype");
+    font-family: "Proxima Nova";
+    src: url("fonts/ProximaNova-Regular.otf");
+}
+
+
+
